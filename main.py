@@ -25,9 +25,9 @@ nltk.download('vader_lexicon', quiet=True)
 
 # Allowed user IDs for interaction
 ALLOWED_USER_IDS = [
-    1392415017961263245,
-    1345551720691798070,
-    1239177636237017118
+    #1393442227961263245,
+    #123445540691798070,
+    #1239177223337017118
 ]
 
 # NLP tools
