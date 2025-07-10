@@ -37,7 +37,7 @@ sentiment_analyzer = SentimentIntensityAnalyzer()
 
 # Selfbot Class
 class SelfBot(commands.Bot):
-    def __init__(self, model="dolphin-mistral", endpoint="http://localhost:11434/api/generate"):
+    def __init__(self, model="dolphin-mistral", endpoint="LocalHostHere"): #add your local host link here
         super().__init__(command_prefix="!", self_bot=True)
         self.model = model
         self.endpoint = endpoint
